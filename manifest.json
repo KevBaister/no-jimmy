@@ -1,0 +1,11 @@
+{
+  "name" : "No Jimmy",
+  "version" : "1.0",
+  "description" : "Removes the Jimmy Wales banner from wikipedia",
+  "content_scripts": [
+    {
+      "matches": ["*://*.wikipedia.org/*"],
+      "css": ["nojimmy.css"]
+    }
+  ]
+}
